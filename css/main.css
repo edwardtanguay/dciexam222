@@ -57,6 +57,16 @@ main {
 	margin-bottom: .5rem;
 }
 
+
+a {
+	text-decoration: none;
+}
+a:after {
+	font-family: 'FontAwesome';
+	content: ' \f043';
+	font-size: 1.5rem;
+}
+
 @media (max-width: 767px) {
 	.cards {
 		flex-direction: column;
