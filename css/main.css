@@ -15,8 +15,9 @@ header {
 	background-size: cover;
 	background-position: center;
 	position: fixed;
-	width: 100%;
-	top: 0;
+	/* width: 100%; */
+	/* top: 0; */
+	inset: 0 0 auto 0;
 }
 
 header h1 {
