@@ -16,6 +16,7 @@ header {
 	background-position: center;
 	position: fixed;
 	width: 100%;
+	top: 0;
 }
 
 header h1 {
@@ -24,4 +25,8 @@ header h1 {
 	right: 4rem;
 	font-size: 4rem;
 	opacity: .3;
+}
+
+main {
+	margin: 22rem 2rem 2rem 2rem;
 }
