@@ -1,3 +1,27 @@
-h1 {
-	color: red;
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: verdana;
+}
+
+header {
+	background-image: url('../images/scubadive.jpg');
+	height: 20rem;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	position: fixed;
+	width: 100%;
+}
+
+header h1 {
+	position: absolute;
+	top: 4rem;
+	right: 4rem;
+	font-size: 4rem;
+	opacity: .3;
 }
