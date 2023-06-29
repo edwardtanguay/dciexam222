@@ -61,10 +61,36 @@ main {
 a {
 	text-decoration: none;
 }
+
 a:after {
 	font-family: 'FontAwesome';
 	content: ' \f043';
 	font-size: 1.5rem;
+}
+
+table {
+	width: 50%;
+	margin-top: 1rem;
+	border-collapse: collapse;
+}
+
+table th.empty {
+	background-color: inherit;
+	border: 0;
+}
+
+table th {
+	background-color: #ddd;
+}
+
+table tr:nth-of-type(even) {
+	background-color: #eee;
+}
+
+table th, td {
+	text-align: right;
+	padding: .5rem;
+	border: 1px solid #ccc;
 }
 
 @media (max-width: 767px) {
